@@ -2,6 +2,8 @@
 Max Profit Scheduling Problem solved using brute-force simulation in Java to maximize earnings based on construction time and completion-based revenue model.
 Problem Statement
 
+Problem Overview :
+
 Mr. X owns a large piece of land and can build three types of properties:
 
 | Building            | Construction Time | Earnings per Unit Time |
@@ -11,6 +13,7 @@ Mr. X owns a large piece of land and can build three types of properties:
 | Commercial Park (C) | 10 units          | $2000                  |
 
 🔒 Constraints
+
 Only one building can be constructed at a time
 Buildings start earning only after completion
 Total available time is n units
@@ -33,11 +36,13 @@ Profit = Earnings per unit time × (Total time - Completion time)
 👉 This makes construction order critical to maximizing profit.
 
 🛠️ Approach
+
 🔍 Strategy: Brute Force + Simulation
 
 We explore all valid configurations of building counts and evaluate each using simulation.
 
 Step-by-step breakdown:
+
 1️⃣ Generate all valid combinations
 Number of Theatres (T)
 Number of Pubs (P)
